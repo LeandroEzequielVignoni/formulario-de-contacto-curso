@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Formularios</h1>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre" required>
+                </div>
+                <div>
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ingrese apellido" required>
+                </div>
+            </fieldset>
+
+            
+            <!-- <input type="submit" value="Enviar"> -->
+             <fieldset>
+                <legend>Probando inputs</legend>
+                <input type="date" name="" id="">
+                <input type="email" name="" id="">
+                <input type="color" name="" id="">
+                <input type="file" name="" id="">
+                <input type="password" name="" id="">
+                <input type="url" name="" id="">
+                <input type="range" name="" id="" min="0" max="200" step="50">
+             </fieldset>
+
+             <div>
+                <input type="checkbox" name="" id=""> <label for="">Uno</label>
+                <input type="checkbox" name="" id=""> <label for="">Dos</label>
+                <input type="checkbox" name="" id=""> <label for="">Tres</label>
+             </div>
+             <div>
+                <input type="radio" name="lenguaje" id=""> <label for="">HTML</label>
+                <input type="radio" name="lenguaje" id=""> <label for="">CSS</label>
+                <input type="radio" name="lenguaje" id=""> <label for="">JS</label>
+             </div>
+
+             <div>
+                <label for="consulta">Consulta: </label>
+                <textarea name="consulta" id="consulta" placeholder="ingrese su texto"></textarea>
+             </div>
+
+             <div>
+                <label for="opcion">Opciones: </label>
+                <select name="opcion" id="opcion">
+                    <option value=""></option>
+                    <option value="1">opcion 1</option>
+                    <option value="2">opcion 2</option>
+                    <option value="3">opcion 3</option>
+                </select>
+                
+             </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <small>Copyright 2024</small>
+    </footer>
+</body>
+</html>
